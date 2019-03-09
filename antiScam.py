@@ -4,7 +4,7 @@ import random
 
 random.seed = (os.urandom(1024))
 
-url = raw_input("Enter fake form url's : ")
+url = raw_input("Enter fake form url : ")
 times = int(raw_input("How many times : "))
 
 for i in range(1, times+1):
@@ -17,4 +17,4 @@ for i in range(1, times+1):
         'submit': 'Envoyer'
  	})
 
-	print '%s - Sending id: (%s) and password: (%s)' % (i, number, code)
+	print '%s - Sending id: (%s) and password: (%s) to %s form' % (i, number, code, url)
