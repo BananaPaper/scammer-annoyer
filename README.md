@@ -3,7 +3,7 @@
 
 ## Installation
 ```bash
-git clone https://github.com/BananaPaper/scammer-annoyer.git
+git clone https://github.com/flvoyer/scammer-annoyer.git
 ```
 
 ## Preparation
